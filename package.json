@@ -1,0 +1,21 @@
+{
+  "name": "autocomplete-powershell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "pulsar-package", "pulsar-edit"],
+  "author": "confused-Techie",
+  "license": "MIT",
+  "repository": "https://github.com/confused-Techie/autocomplete-powershell",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "activationHooks": [ "source.powershell:root-scope-used" ]
+}
