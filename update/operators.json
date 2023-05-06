@@ -1,0 +1,234 @@
+[
+  {
+    "text": "-band",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-bnot",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-bor",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-bxor",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-shl",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-shr",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-eq",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ieq",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ceq",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ne",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ine",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cne",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-gt",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-igt",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cgt",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ge",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ige",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cge",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-lt",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ilt",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-clt",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-le",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ile",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cle",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-like",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ilike",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-clike",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-notlike",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-inotlike",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cnotlike",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-match",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-imatch",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cmatch",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-notmatch",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-inotmatch",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cnotmatch",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-replace",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ireplace",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-creplace",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-contains",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-icontains",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-ccontains",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-notcontains",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-inotcontains",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-cnotcontains",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-in",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-notin",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-is",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-isnot",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-and",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logical_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-or",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logical_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-xor",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logical_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-not",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logical_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-Split",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_split?view=powershell-7.3"
+  },
+  {
+    "text": "-Join",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_join?view=powershell-7.3"
+  },
+  {
+    "text": "-is",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_type_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-isnot",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_type_operators?view=powershell-7.3"
+  },
+  {
+    "text": "-as",
+    "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_type_operators?view=powershell-7.3"
+  }
+]

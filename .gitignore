@@ -1,0 +1,3 @@
+# Ignore the cloned docs repo after updating the completions file
+powershellDocs/
+node_modules/
