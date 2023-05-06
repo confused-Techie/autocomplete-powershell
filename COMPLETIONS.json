@@ -1,14 +1,14 @@
 {
   "cmdlet": [
     {
-      "name": "Add-Content",
+      "displayText": "Add-Content",
       "text": "Add-Content",
       "description": "Adds content to the specified items, such as adding words to a file.",
       "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content?view=powershell-7.3",
       "rightLabel": "Microsoft.PowerShell.Management"
     },
     {
-      "name": "Clear-Content",
+      "displayText": "Clear-Content",
       "text": "Clear-Content",
       "description": "Deletes the contents of an item, but does not delete the item.",
       "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-content?view=powershell-7.3",
@@ -18,14 +18,14 @@
   "params": {
     "Add-Content": [
       {
-        "name": "Path",
+        "displayText": "Path",
         "text": "-Path",
         "description": "Specifies the path to the items that receive the additional content.",
         "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content?view=powershell-7.3#-path",
         "rightLabel": "string[]"
       },
       {
-        "name": "Stream",
+        "displayText": "Stream",
         "text": "-Stream",
         "description": "Specifies an alternative data stream for content.",
         "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content?view=powershell-7.3#-stream",
@@ -34,12 +34,19 @@
     ],
     "Clear-Content": [
       {
-        "name": "Confirm",
+        "displayText": "Confirm",
         "text": "-Confirm",
         "description": "Prompts you for confirmation before running the cmdlet.",
         "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-content?view=powershell-7.3#-confirm",
         "rightLabel": "SwitchParameter"
       }
     ]
-  }
+  },
+  "operators": [
+    {
+      "displayText": "Bitwise AND",
+      "text": "-band",
+      "descriptionMoreURL": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-7.3"
+    }
+  ]
 }
