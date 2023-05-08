@@ -20,6 +20,13 @@
       }
     }
   },
+  "consumedServices": {
+    "autocomplete-powershell.modules": {
+      "versions": {
+        "1.0.0": "consumeModules"
+      }
+    }
+  },
   "activationHooks": [
     "source.powershell:root-scope-used"
   ],

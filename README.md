@@ -31,3 +31,15 @@ The Pros of this method, is it will always be up to date with your system that y
 The con of this method, is it's generally slower than static completions, and uses a bit more resources.
 
 But if you would rather use PowerShell's native autocompletions, just ensure to have PowerShell installed on your development machine, and accessible to Pulsar.
+
+## Developers WIP
+
+So a WIP is easily allowing extension of supporting PowerShell autocompletions for additional PowerShell modules.
+
+Where the bonus would be not needing to really do any coding at all if not preferred.
+
+Exposing a new Service from this package where another consuming package would need to have:
+
+* `getModule()`: Which should return the module the package supports itself. This module (TODO) could be an array of object, or even a function that returns an array or object. And it'll be added to the CMDLets provided to the user.
+* `getParams()`: This function should then additionally provide the params to be used for your module.
+  The first argument of this function will be the module name that has been matched, which each package will always have to double check that it is one they in fact support. Which if they don't, returning with empty data is recommended.
