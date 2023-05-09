@@ -32,14 +32,51 @@ The con of this method, is it's generally slower than static completions, and us
 
 But if you would rather use PowerShell's native autocompletions, just ensure to have PowerShell installed on your development machine, and accessible to Pulsar.
 
-## Developers WIP
+## Adding new Modules
 
-So a WIP is easily allowing extension of supporting PowerShell autocompletions for additional PowerShell modules.
+As you'll see spending any time with this package, it only provides autocompletions for the core of PowerShell, as is it's intention. But there will often times be that you may want support for additional modules of PowerShell, such as community modules, or even other Microsoft ones such as ActiveDirectory.
 
-Where the bonus would be not needing to really do any coding at all if not preferred.
+In this case, this package makes it as easy as possible to provide additional modules, without much code.
 
-Exposing a new Service from this package where another consuming package would need to have:
+Using Pulsar's Service Hub, this package consumes a new service called `autocomplete-powershell.modules`, similar in much the same way Autocomplete itself functions, any packages that consume this service are then able to take advantage of the service to provide additional modules to autocomplete through this package, without having to deal with any of the complexity of writing the code to support autocompletions.
 
-* `getModule()`: Which should return the module the package supports itself. This module (TODO) could be an array of object, or even a function that returns an array or object. And it'll be added to the CMDLets provided to the user.
-* `getParams()`: This function should then additionally provide the params to be used for your module.
-  The first argument of this function will be the module name that has been matched, which each package will always have to double check that it is one they in fact support. Which if they don't, returning with empty data is recommended.
+To create a package and provide autocompletions for a new PowerShell Module you'll just need to follow the below steps.
+
+Much like creating any package, start off with your `package.json` and ensure to provide the `autocomplete-powershell.modules` service like so:
+
+```json
+"providedServices": {
+  "autocomplete-powershell.modules": {
+    "versions": {
+      "1.0.0": "getProvider"
+    }
+  }
+}
+```
+
+Then you'll need to make sure that `getProvider` is a function exported by your package's `main` module. This could be as simple as:
+
+```javascript
+const provider = require("./provider.js");
+
+module.exports = {
+  activate: () => provider.load(),
+  getProvider: () => provider,
+};
+```
+
+From here you'll be able to implement all the logic within your `provider.js` file.
+
+To properly use this service there's only two functions that are required (and used):
+
+  * `getModule()`: This key can return a function that returns, or directly return an array or object. This should contain valid `autocomplete-plus` entries for your module or supported modules.
+  * `getParams(cmdlet)`: This **must** be a function that returns an array of items, that are the params for your supported module. A CMDLet is passed in this function, which you **must** check to ensure you support it, and if you don't just return empty like `return;` and otherwise return your array of valid `autocomplete-plus` items that will be injected at the top of the completions for the module.
+  * `name`: It's highly recommended you add a name field to your provider. This allows the package to be easily identified for end users.
+
+From there, you are good to go! Now after a user has both your package and `autocomplete-powershell` installed, they will be able to get completions for all of the core of PowerShell as well as your new module.
+
+It's recommended to name any module package's like `autocomplete-powershell-MODULE_NAME` to help users find them on the Pulsar Package Registry.
+
+Additionally, feel free to add the tag `autocomplete-powershell` to your GitHub repo to increase discoverability.
+
+As a user, once you've added new modules you can use the Command Palette and search for `autocomplete-powershell: Show Module Providers` to show all providers you currently have installed.
